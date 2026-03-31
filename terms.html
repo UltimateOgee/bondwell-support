@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bondwell – Terms of Service">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>Terms of Service – Bondwell</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #0a0a0a;
+      --surface:  #141414;
+      --border:   #222;
+      --text:     #f5f5f7;
+      --subtle:   #8e8e93;
+      --accent:   #007AFF;
+      --font:     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── Nav ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(10, 10, 10, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 0.5px solid var(--border);
+      padding: 0 1.5rem;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: opacity 0.15s;
+    }
+    nav a:hover { opacity: 0.75; }
+
+    nav .divider { color: var(--border); font-size: 1.1rem; }
+    nav .current { color: var(--subtle); font-size: 0.95rem; }
+
+    /* ── Content ── */
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3.5rem 1.5rem 6rem;
+    }
+
+    .meta {
+      color: var(--subtle);
+      font-size: 0.8rem;
+      margin-bottom: 3rem;
+      margin-top: 0.5rem;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.6rem;
+      color: var(--text);
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 0.5px solid var(--border);
+    }
+    section:last-child { border-bottom: none; }
+
+    p {
+      color: var(--subtle);
+      font-size: 0.975rem;
+    }
+
+    a.inline {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      border-top: 0.5px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--subtle);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+      justify-content: center;
+    }
+
+    footer a {
+      color: var(--subtle);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <path d="M10 3L5 8L10 13" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Bondwell
+    </a>
+    <span class="divider">/</span>
+    <span class="current">Terms of Service</span>
+  </nav>
+
+  <main>
+    <h1>Terms of Service</h1>
+    <p class="meta">Last updated: January 1, 2026</p>
+
+    <section>
+      <h2>1. Acceptance of Terms</h2>
+      <p>By accessing or using Bondwell ("the Service"), you agree to be bound by these Terms of
+      Service. If you disagree with any part of these terms, you may not access the Service.</p>
+    </section>
+
+    <section>
+      <h2>2. Use of Service</h2>
+      <p>Bondwell is intended for personal, non-commercial use. You agree not to use the Service
+      for any unlawful purpose or in any way that could damage, disable, or impair the Service.
+      You are responsible for maintaining the confidentiality of your account credentials.</p>
+    </section>
+
+    <section>
+      <h2>3. User Content</h2>
+      <p>You retain all rights to any content you submit through the Service. By submitting
+      content, you grant Bondwell a worldwide, non-exclusive, royalty-free licence to use,
+      reproduce, and display such content solely for the purpose of providing the Service.</p>
+    </section>
+
+    <section>
+      <h2>4. Privacy</h2>
+      <p>Your use of the Service is also governed by our
+      <a class="inline" href="privacy.html">Privacy Policy</a>, which is incorporated by
+      reference into these Terms of Service.</p>
+    </section>
+
+    <section>
+      <h2>5. Termination</h2>
+      <p>We reserve the right to terminate or suspend your account at our sole discretion, without
+      notice, for conduct that we believe violates these Terms of Service or is harmful to other
+      users, us, or third parties.</p>
+    </section>
+
+    <section>
+      <h2>6. Disclaimer of Warranties</h2>
+      <p>The Service is provided "as is" without warranty of any kind, express or implied,
+      including but not limited to the warranties of merchantability, fitness for a particular
+      purpose, and non-infringement.</p>
+    </section>
+
+    <section>
+      <h2>7. Limitation of Liability</h2>
+      <p>In no event shall Bondwell be liable for any indirect, incidental, special, exemplary,
+      or consequential damages arising out of or in connection with your use of the Service.</p>
+    </section>
+
+    <section>
+      <h2>8. Changes to Terms</h2>
+      <p>We reserve the right to modify these terms at any time. We will provide notice of
+      significant changes by updating the date at the top of this page. Continued use of the
+      Service after such changes constitutes your acceptance of the new terms.</p>
+    </section>
+
+    <section>
+      <h2>9. Contact</h2>
+      <p>If you have questions about these Terms of Service, please contact us at
+      <a class="inline" href="mailto:support@bondwell.app">support@bondwell.app</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>&copy; 2026 Bondwell. All rights reserved.</span>
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </footer>
+
+</body>
+</html>
