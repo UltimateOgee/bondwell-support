@@ -26,13 +26,15 @@
     .logo {
       width: 120px;
       height: 120px;
-      background: #1a1a2e;
       border-radius: 28px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      overflow: hidden;
       margin: 0 auto 2rem;
-      font-size: 3rem;
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      display: block;
     }
 
     h1 {
@@ -79,7 +81,7 @@
   </style>
 </head>
 <body>
-  <div class="logo">&#129730;</div>
+  <div class="logo"><img src="app-icon.png" alt="Bondwell" width="120" height="120"></div>
   <h1>Bondwell</h1>
   <p>The best way to stay connected with that special someone. Available now on iPhone.</p>
   <a class="app-store-btn" href="https://apps.apple.com" target="_blank" rel="noopener noreferrer">
